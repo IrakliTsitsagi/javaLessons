@@ -1,6 +1,6 @@
 public class Kent {
     public static void main(String[] args){
-        for (int x = 99; x > 1; x--) {
+        for (int x = 99; x > 0; x--) {
             if (x == 7) {
                 continue;
             }
