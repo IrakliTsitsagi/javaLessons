@@ -6,5 +6,11 @@ public class MasivisJami {
         for (i = 0; i < masivi.length; i++)
             jami += masivi[i];
         System.out.println(jami);
+        
+        // max number vipovot
+        for (i = 0; i < masivi.length; i++)
+            if (masivi[i] > max)
+                max = masivi[i];
+        System.out.println(max);
     }
 }
