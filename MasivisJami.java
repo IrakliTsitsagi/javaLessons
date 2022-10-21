@@ -8,6 +8,7 @@ public class MasivisJami {
         System.out.println(jami);
         
         // max number vipovot
+         int max=masivi[0];
         for (i = 0; i < masivi.length; i++)
             if (masivi[i] > max)
                 max = masivi[i];
